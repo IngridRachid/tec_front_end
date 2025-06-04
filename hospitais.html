@@ -9,103 +9,92 @@
 </head>
 
 <body class="flex flex-col min-h-screen">
-    <!-- Header -->
-    <header class="bg-blue-700 text-white p-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">GuiaMed</h1>
-        <nav class="space-x-4">
-        <a href="index.html" class="hover:underline">Início</a>
-        <a href="hospitais.html" class="hover:underline">Hospitais</a>
-        <a href="quem-somos.html" class="hover:underline">Quem Somos</a>
-        </nav>
-    </header>
-    
-    <!-- Página Hospitais -->
-    <main class="flex-grow p-6 bg-gray-100">
-        <section class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-semibold mb-4">Hospitais e Unidades de Saúde</h2>
-        <p class="text-gray-700 text-lg">Aqui você encontra informações sobre os principais hospitais e unidades de saúde disponíveis na sua região.</p>
-        
-        <html lang="pt-br">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">GuiaMed</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Início</a>
+      <a href="hospitais.html" class="hover:underline">Hospitais</a>
+      <a href="quem-somos.html" class="hover:underline">Quem Somos</a>
+    </nav>
+  </header>
 
-  <h1 class="text-4xl font-bold mb-6">Encontre Atendimento</h1>
+  <!-- Página Hospitais -->
+  <main class="flex-grow p-6 bg-gray-100">
+    <section class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-4">Hospitais e Unidades de Saúde</h2>
+      <p class="text-gray-700 text-lg mb-6">Aqui você encontra informações sobre os principais hospitais e unidades de saúde disponíveis na sua região.</p>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-    <!-- Card -->
-<<<<<<< HEAD
-    <div class="rounded-lg shadow-md overflow-hidden">
-      <img src=itrauma.jpeg alt="Alter do Chão" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2">HOSPITAL DE TRAUMA-JP</div>
-=======
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/itrauma.jpeg alt="foto do Hospital de Trauma" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL <br> DE TRAUMA JP
+      <h1 class="text-4xl font-bold mb-6">Encontre Atendimento</h1>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Card -->
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/itrauma.jpeg" alt="Hospital de Trauma" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL <br> DE TRAUMA JP
+          </div>
+          <a href="trauma.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/iortotrauma.jpg" alt="Hospital de Ortotrauma" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL <br> ORTOTRAUMA
+          </div>
+          <a href="ortotrauma.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/ihospitaldoservidor.jpeg" alt="Hospital Edson Ramalho" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL <br> EDSON RAMALHO
+          </div>
+          <a href="edson.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/ihulw.jpg" alt="Hospital Universitário Lauro Wanderley" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL UNIVER... <br> LAURO WANDERLEY
+          </div>
+          <a href="hu.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/imatfreidamiao.jpg" alt="Maternidade Frei Damião" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            MATERNIDADE <br> FREI DAMIÃO
+          </div>
+          <a href="frei.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/iflavioribeiro.jpg" alt="Hospital Flávio Ribeiro" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL <br> FLAVIO RIBEIRO
+          </div>
+          <a href="flavio.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/imatcandidavargas.jpg" alt="Maternidade Cândida Vargas" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            MATERNIDADE <br> CÂNDIDA VARGAS
+          </div>
+          <a href="candida.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
+
+        <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden bg-white">
+          <img src="./static/img/ilaureano.jpeg" alt="Hospital Napoleão Laureano" class="w-full h-48 object-cover">
+          <div class="bg-black text-white text-center font-bold py-2">
+            HOSPITAL <br> NAPOLEÃO LAUREANO
+          </div>
+          <a href="laureano.html" class="mt-auto bg-black text-white text-sm font-semibold py-2 hover:bg-blue-700">Ver Detalhes</a>
+        </div>
       </div>
->>>>>>> 2b317740c361f2179f898624863b7fed1390503f
-    </div>
-
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/iortotrauma.jpg alt="foto do Hospital de Ortotrauma" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL <br> ORTOTRAUMA
-      </div>
-    </div>
-
-<<<<<<< HEAD
-    <div class="rounded-lg shadow-md overflow-hidden">
-      <img src=ihospitaldoservidor.jpeg alt="Arraial D'Ajuda" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2">HOSPITAL DO SERVIDOR GEN. EDSON RAMALHO</div>
-=======
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src="./static/img/ihospitaldoservidor.jpeg" alt="foto do Hospital Edson Ramalho" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL <br> EDSON RAMALHO
-      </div>
->>>>>>> 2b317740c361f2179f898624863b7fed1390503f
-    </div>
-
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/ihulw.jpg alt="foto do Hospital Universitário Lauro Wanderley" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL UNIVER... <br> LAURO WANDERLEY
-      </div>
-    </div>
-
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/imatfreidamiao.jpg alt="Balneário Camboriú" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        MATERNIDADE <br> FREI DAMIÃO
-      </div>
-    </div>
-
-<<<<<<< HEAD
-    <div class="rounded-lg shadow-md overflow-hidden">
-      <img src=iflavioribeiro.jpg alt="Belém" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2">HOSPITAL E MATERIDADE FLÁVIO RIBEIRO</div>
-=======
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/iflavioribeiro.jpg alt="Foto do Hospital Flávio Ribeiro" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL <br> FLAVIO RIBEIRO
-      </div>
->>>>>>> 2b317740c361f2179f898624863b7fed1390503f
-    </div>
-
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/imatcandidavargas.jpg alt="Belo Horizonte" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        MATERNIDADE <br> CÂNDIDA VARGAS
-      </div>
-    </div>
-
-    <div class="flex flex-col h-full rounded-lg shadow-md overflow-hidden">
-      <img src=./static/img/ilaureano.jpeg alt="Bento Gonçalves" class="w-full h-48 object-cover">
-      <div class="bg-black text-white text-center font-bold py-2 mt-auto">
-        HOSPITAL <br> NAPOLEÃO LAUREANO
-      </div>
-    </div>
-  </div>
-
+    </section>
+  </main>
 </body>
 
 </html>
